@@ -1,0 +1,253 @@
+.CustomerSay {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  margin: 0 auto;
+
+  h2 {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+
+    color: #6c5fbc;
+
+    span {
+      color: black;
+    }
+  }
+}
+.ListCardSay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 30px;
+  .CardSay {
+    max-width: 525.47px;
+    min-height: 246.04px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 30px;
+  }
+  .CardSayInfo {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+
+    .CardSaySlider {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        display: block;
+      }
+    }
+
+    .iconSay img {
+      width: 58.69px;
+      height: 44.25px;
+    }
+  }
+  .BrandInfoSay p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: justified;
+    color: #636363;
+  }
+  .StarSay {
+    color: #f59e0b;
+    display: flex;
+    gap: 10px;
+    .star {
+      color: #f59e0b;
+    }
+  }
+}
+
+.SliderSection {
+  max-width: 528px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.slick-arrow {
+  background-color: #ebd517;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+
+  &:hover {
+    background-color: #f59e0b;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .ListCardSay {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .SliderSection {
+    width: 342px;
+    text-align: center;
+  }
+
+  .ListCardSay .CardSay {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 342px;
+    text-align: center;
+
+    .CardSayInfo {
+      gap: 40px;
+
+      .CardSaySlider {
+        align-items: center;
+
+        img {
+          width: 43px;
+          height: 43px;
+        }
+
+        h3 {
+          font-family: Poppins;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 19px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+
+        p {
+          font-family: Quicksand;
+          font-size: 10px;
+          font-weight: 500;
+          line-height: 16px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .ListCardSay {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .SliderSection {
+    width: 342px;
+    text-align: center;
+  }
+
+  .ListCardSay .CardSay {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 342px;
+    text-align: center;
+
+    .CardSayInfo {
+      gap: 40px;
+
+      .CardSaySlider {
+        align-items: center;
+
+        img {
+          width: 43px;
+          height: 43px;
+        }
+
+        h3 {
+          font-family: Poppins;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 19px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+
+        p {
+          font-family: Quicksand;
+          font-size: 10px;
+          font-weight: 500;
+          line-height: 16px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .ListCardSay {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .SliderSection {
+    width: 342px;
+    text-align: center;
+  }
+
+  .ListCardSay .CardSay {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 342px;
+    text-align: center;
+
+    .CardSayInfo {
+      gap: 40px;
+
+      .CardSaySlider {
+        align-items: center;
+
+        img {
+          width: 43px;
+          height: 43px;
+        }
+
+        h3 {
+          font-family: Poppins;
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 19px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+
+        p {
+          font-family: Quicksand;
+          font-size: 10px;
+          font-weight: 500;
+          line-height: 16px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

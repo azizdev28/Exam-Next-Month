@@ -1,0 +1,399 @@
+.TopDishes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 150px auto;
+
+  h2 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    .SpanHeading {
+      color: #6c5fbc;
+    }
+  }
+  .DishesGrid {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 35px;
+    margin-bottom: 30px;
+    margin-top: 60px;
+
+    .DishesCard {
+      padding: 20px 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      padding: 30px 20px;
+      background: linear-gradient(0deg, #f4f4f6, #f4f4f6),
+        linear-gradient(0deg, #ffffff, #ffffff);
+
+      max-width: 234.74px;
+      min-height: 359.59px;
+      box-shadow: 4.869985580444336px 58.439823150634766px 29.219911575317383px
+        0px #e5e5e5b2;
+      border-radius: 30px;
+      img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto;
+        width: 100%;
+      }
+
+      .supreme {
+        background-color: #6dda99;
+        color: #309d5b;
+      }
+
+      .trending {
+        background-color: #e48b77;
+        color: #fb471d;
+      }
+      .healthy {
+        background-color: #f5d071;
+        color: #daa31a;
+      }
+
+      span {
+        display: flex;
+        text-align: start;
+        font-family: Poppins;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #daa31a;
+        background-color: #ecce80;
+        padding: 2px 5px;
+        border-radius: 5px;
+      }
+
+      h3 {
+        font-family: Poppins;
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 37px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      p {
+        font-family: Manrope;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 4px;
+        text-align: left;
+        color: #8e97a6;
+        margin: 10px 0;
+      }
+
+      .BtnShop {
+        display: flex;
+        justify-content: space-between;
+        gap: 35px;
+        margin-top: 10px;
+        align-items: center;
+        border: none;
+        h4 {
+          display: flex;
+          font-family: Manrope;
+          font-size: 26px;
+          font-weight: 700;
+          line-height: 40px;
+          letter-spacing: 4px;
+          text-align: left;
+          align-items: center;
+
+          .SenaSpan {
+            font-family: Manrope;
+            font-size: 21px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0px;
+            text-align: left;
+            color: #8e97a6;
+          }
+        }
+
+        .FaPlusCircleBtn {
+          color: #ffffff;
+          border-radius: 8.93px;
+          background-color: #000;
+          padding: 10px;
+          font-size: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .TopDishes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    h2 {
+      font-family: Poppins;
+      font-size: 45px;
+      font-weight: 600;
+      line-height: 26px;
+      letter-spacing: 0px;
+      text-align: left;
+
+      .SpanHeading {
+        color: #6c5fbc;
+      }
+    }
+    .DishesGrid {
+      display: grid;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      margin-bottom: 30px;
+      margin-top: 60px;
+
+      .DishesCard {
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 30px 20px;
+        background: linear-gradient(0deg, #f4f4f6, #f4f4f6),
+          linear-gradient(0deg, #ffffff, #ffffff);
+
+        max-width: 194.74px;
+        min-height: 359.59px;
+        box-shadow: 4.869985580444336px 58.439823150634766px
+          29.219911575317383px 0px #e5e5e5b2;
+        border-radius: 30px;
+        img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 20px auto;
+          width: 100%;
+        }
+        span {
+          display: flex;
+          text-align: start;
+          font-family: Poppins;
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: #daa31a;
+          background-color: #ecce80;
+          padding: 2px 5px;
+          border-radius: 5px;
+        }
+
+        h3 {
+          font-family: Poppins;
+          font-size: 23px;
+          font-weight: 600;
+          line-height: 37px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+
+        p {
+          font-family: Manrope;
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 23px;
+          letter-spacing: 4px;
+          text-align: left;
+          color: #8e97a6;
+          margin: 10px 0;
+        }
+
+        .BtnShop {
+          display: flex;
+          justify-content: space-between;
+          gap: 35px;
+          margin-top: 10px;
+          align-items: center;
+          border: none;
+          h4 {
+            display: flex;
+            font-family: Manrope;
+            font-size: 26px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 4px;
+            text-align: left;
+            align-items: center;
+
+            .SenaSpan {
+              font-family: Manrope;
+              font-size: 21px;
+              font-weight: 700;
+              line-height: 40px;
+              letter-spacing: 0px;
+              text-align: left;
+              color: #8e97a6;
+            }
+          }
+
+          .FaPlusCircleBtn {
+            color: #ffffff;
+            border-radius: 8.93px;
+            background-color: #000;
+            padding: 10px;
+            font-size: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .TopDishes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    h2 {
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: 0px;
+      text-align: center;
+
+      .SpanHeading {
+        color: #6c5fbc;
+      }
+    }
+    .DishesGrid {
+      display: grid;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      margin-bottom: 30px;
+      margin-top: 60px;
+
+      .DishesCard {
+        padding: 20px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 30px 20px;
+        background: linear-gradient(0deg, #f4f4f6, #f4f4f6),
+          linear-gradient(0deg, #ffffff, #ffffff);
+
+        max-width: 194.74px;
+        min-height: 359.59px;
+        box-shadow: 4.869985580444336px 58.439823150634766px
+          29.219911575317383px 0px #e5e5e5b2;
+        border-radius: 30px;
+        img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 20px auto;
+          width: 100%;
+        }
+        span {
+          display: flex;
+          text-align: start;
+          font-family: Poppins;
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: #daa31a;
+          background-color: #ecce80;
+          padding: 2px 5px;
+          border-radius: 5px;
+        }
+
+        h3 {
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: 600;
+          line-height: 25px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+
+        p {
+          font-family: Manrope;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 15px;
+          letter-spacing: 0px;
+          text-align: left;
+
+          color: #8e97a6;
+          margin: 10px 0;
+        }
+
+        .BtnShop {
+          display: flex;
+          justify-content: space-between;
+          gap: 35px;
+          margin-top: 10px;
+          align-items: center;
+          border: none;
+          h4 {
+            display: flex;
+            font-family: Manrope;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 4px;
+            text-align: left;
+            align-items: center;
+
+            .SenaSpan {
+              font-family: Manrope;
+              font-size: 17px;
+              font-weight: 700;
+              line-height: 40px;
+              letter-spacing: 0px;
+              text-align: left;
+              color: #8e97a6;
+            }
+          }
+
+          .FaPlusCircleBtn {
+            color: #ffffff;
+            border-radius: 8.93px;
+            background-color: #000;
+            padding: 10px;
+            font-size: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

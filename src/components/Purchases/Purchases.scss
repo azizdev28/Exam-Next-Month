@@ -1,0 +1,94 @@
+.Purchases {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 30px 60px;
+  margin: 100px 0;
+  // flex-wrap: wrap;
+
+  .PurchasesCards {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+
+    h2 {
+      font-family: Poppins;
+      font-size: 43px;
+      font-weight: 700;
+      line-height: 71px;
+      letter-spacing: 10px;
+      text-align: left;
+
+      span {
+        font-family: Poppins;
+        font-size: 41px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 10px;
+        text-align: left;
+        color: #6c5fbc;
+      }
+    }
+    img {
+      max-width: 295.17px;
+      border-radius: 12.04px;
+      display: block;
+    }
+  }
+  .PurchasesCard {
+    img {
+      max-width: 534px;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .Purchases {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // flex-direction: column;
+    padding: 20px 50px;
+    margin: 109px 0;
+    flex-wrap: wrap;
+
+    .PurchasesCards {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+
+      h2 {
+        font-family: Poppins;
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 51px;
+        letter-spacing: 5px;
+        text-align: left;
+        text-align: center;
+
+        span {
+          font-family: Poppins;
+          font-size: 31px;
+          font-weight: 700;
+          line-height: 58px;
+          letter-spacing: 5px;
+          text-align: left;
+          color: #6c5fbc;
+        }
+      }
+      img {
+        max-width: 295.17px;
+        border-radius: 12.04px;
+        display: block;
+      }
+    }
+    .PurchasesCard {
+      img {
+        max-width: 334px;
+      }
+    }
+  }
+}

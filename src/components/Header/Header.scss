@@ -1,0 +1,136 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Kerak bo'lgan z-index ni belgilang */
+  background-color: #fff; /* Header foni */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Yoritish */
+  flex-wrap: wrap;
+}
+
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 60px;
+
+  .NavbarLeft {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+    .Logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        display: block;
+      }
+    }
+
+    h2 {
+      color: #6c5fbc;
+      display: block;
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .NavbarRight {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    a {
+      display: block;
+      text-decoration: none;
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 27px;
+      letter-spacing: 0em;
+      color: #444343;
+    }
+
+    .Login {
+      padding: 8px 20px;
+      border-radius: 17.83px;
+      transition: all 0.7s ease;
+      background: #6c5fbc;
+      color: #fff;
+      &:hover {
+        color: #606060;
+        background: #fff;
+      }
+    }
+    .SignUp {
+      color: #fff;
+      padding: 8px 20px;
+      border-radius: 17.83px;
+      background: #6c5fbc;
+      transition: all 0.7s ease;
+      &:hover {
+        color: #606060;
+        background: #fff;
+      }
+    }
+  }
+  .BurgerBtn {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .Navbar {
+    padding: 20px 50px;
+
+    .NavbarLeft {
+      gap: 10px;
+
+      .ListItem {
+        display: none;
+      }
+    }
+    .NavbarRight {
+      display: none;
+    }
+    .BurgerBtn {
+      display: block;
+
+      button {
+        font-size: 35px;
+        background-color: #fff;
+        border: none;
+      }
+    }
+  }
+
+  .ListItem {
+    display: flex;
+    li {
+      a {
+        font-size: 10px;
+      }
+    }
+  }
+}

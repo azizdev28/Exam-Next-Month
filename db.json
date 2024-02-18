@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "status": "Healthy",
+      "name": "Chicken Hell",
+      "time": "24min",
+      "star": "4.9",
+      "price": "$12.99",
+      "img": "src/assets/img/First.png"
+    },
+    {
+      "id": "2",
+      "status": "Trending",
+      "name": "Swe Dish",
+      "time": "34min",
+      "star": "4.9",
+      "price": "$19.19",
+      "img": "src/assets/img/Second.png"
+    },
+    {
+      "id": "3",
+      "status": "Supreme",
+      "name": "Swe Dish",
+      "time": "24min",
+      "star": "24min",
+      "price": "$19.99",
+      "img": "src/assets/img/Threeth.png"
+    },
+    {
+      "id": "4",
+      "status": "Healthy",
+      "name": "Chicken Hell",
+      "time": "24min",
+      "star": "24min",
+      "price": "$12.99",
+      "img": "src/assets/img/Foorth.png"
+    },
+    {
+      "id": "5",
+      "status": "Healthy",
+      "name": "Swe Dish",
+      "time": "24min",
+      "star": "24min",
+      "price": "$19.99",
+      "img": "src/assets/img/Fiveth.png"
+    },
+    {
+      "id": "6",
+      "status": "Healthy",
+      "name": "Chicken Hell",
+      "time": "24min",
+      "star": "4.9",
+      "price": "$12.99",
+      "img": "src/assets/img/First.png"
+    },
+    {
+      "id": "7",
+      "status": "Trending",
+      "name": "Swe Dish",
+      "time": "34min",
+      "star": "4.9",
+      "price": "$19.19",
+      "img": "src/assets/img/Second.png"
+    },
+    {
+      "id": "8",
+      "status": "Supreme",
+      "name": "Swe Dish",
+      "time": "24min",
+      "star": "24min",
+      "price": "$19.99",
+      "img": "src/assets/img/Threeth.png"
+    },
+    {
+      "id": "9",
+      "status": "Healthy",
+      "name": "Chicken Hell",
+      "time": "24min",
+      "star": "24min",
+      "price": "$12.99",
+      "img": "src/assets/img/Foorth.png"
+    },
+    {
+      "id": "10",
+      "status": "Healthy",
+      "name": "Swe Dish",
+      "time": "24min",
+      "star": "24min",
+      "price": "$19.99",
+      "img": "src/assets/img/Threeth.png"
+    },
+    {
+      "id": "11",
+      "status": "Healthy",
+      "name": "Chicken Hell",
+      "time": "24min",
+      "star": "4.9",
+      "price": "$12.99",
+      "img": "src/assets/img/First.png"
+    },
+    {
+      "id": "12",
+      "status": "Trending",
+      "name": "Swe Dish",
+      "time": "34min",
+      "star": "4.9",
+      "price": "$19.19",
+      "img": "src/assets/img/Second.png"
+    },
+    {
+      "id": "13",
+      "status": "Healthy",
+      "name": "Swe Dish",
+      "time": "24min",
+      "star": "24min",
+      "price": "$19.99",
+      "img": "src/assets/img/Threeth.png"
+    },
+    {
+      "id": "14",
+      "status": "Healthy",
+      "name": "Chicken Hell",
+      "time": "24min",
+      "star": "24min",
+      "price": "$12.99",
+      "img": "src/assets/img/Foorth.png"
+    },
+    {
+      "id": "15",
+      "status": "Healthy",
+      "name": "Swe Dish",
+      "time": "24min",
+      "star": "24min",
+      "price": "$19.99",
+      "img": "src/assets/img/Threeth.png"
+    }
+  ]
+}
