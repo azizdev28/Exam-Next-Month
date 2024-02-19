@@ -1,0 +1,170 @@
+.SubscribePage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 80px;
+  background: #6c5fbc;
+  border-radius: 30px;
+  max-width: 1241px;
+  margin: 100px auto;
+
+  h1 {
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 105px;
+    letter-spacing: 0em;
+    text-align: start;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+
+  input {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding: 14px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 7.253333568572998px 45.333335876464844px 0px #0000001a;
+    width: 440px;
+    border: none;
+    background: #e2d7d7;
+    flex-wrap: wrap;
+  }
+
+  button {
+    padding: 9px 17px;
+    border-radius: 11px;
+    margin-left: -118px;
+    background-color: #6c5fbc;
+    border: none;
+    color: #eceaea;
+  }
+
+  img {
+    margin-bottom: -200px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .SubscribePage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+    background: #6c5fbc;
+    border-radius: 30px;
+    max-width: 863px;
+    margin: 80px auto;
+
+    h1 {
+      font-family: Poppins;
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 75px;
+      letter-spacing: 0em;
+      text-align: center;
+
+      margin-bottom: 30px;
+      color: #ffffff;
+    }
+
+    input {
+      font-family: Poppins;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0.03em;
+      text-align: left;
+
+      padding: 14px 20px;
+      border-radius: 15px;
+      box-shadow: 0px 7.253333568572998px 45.333335876464844px 0px #0000001a;
+      width: 310px;
+      border: none;
+      background: #e2d7d7;
+      flex-wrap: wrap;
+    }
+
+    button {
+      padding: 7px 15px;
+      border-radius: 11px;
+      margin-left: -118px;
+      background-color: #6c5fbc;
+      border: none;
+      color: #eceaea;
+    }
+
+    img {
+      max-width: 194px;
+      margin-bottom: -150px;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .SubscribePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 70px;
+    background: #6c5fbc;
+    border-radius: 30px;
+    max-width: 315px;
+    margin: 150px auto;
+
+    h1 {
+      font-family: Poppins;
+      font-size: 41px;
+      font-weight: 800;
+      line-height: 62px;
+      letter-spacing: 0em;
+      text-align: center;
+
+      margin-bottom: 30px;
+      color: #ffffff;
+    }
+
+    input {
+      font-family: Poppins;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      text-align: left;
+
+      padding: 14px 20px;
+      border-radius: 15px;
+      box-shadow: 0px 7.253333568572998px 45.333335876464844px 0px #0000001a;
+      width: 260px;
+      border: none;
+      background: #e2d7d7;
+      flex-wrap: wrap;
+    }
+
+    button {
+      font-family: Poppins;
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 14px;
+      letter-spacing: 0.03em;
+      text-align: left;
+
+      padding: 7px 15px;
+      border-radius: 11px;
+      margin-left: -118px;
+      background-color: #6c5fbc;
+      border: none;
+      color: #eceaea;
+    }
+
+    img {
+      max-width: 169px;
+      margin-bottom: -150px;
+    }
+  }
+}

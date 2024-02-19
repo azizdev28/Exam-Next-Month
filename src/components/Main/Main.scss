@@ -187,6 +187,8 @@
   gap: 10px;
   width: 100%;
   // height: 220px;
+  padding: 30px 200px;
+  margin: 150px 0;
 
   div {
     // width: 250px;
@@ -445,7 +447,10 @@
       height: 61.78px;
       background: #6c5fbc;
       border-radius: 50%;
-
+      background-color: #8e97a6;
+      svg {
+        color: #6c5fbc;
+      }
       .Save {
         width: 30px;
         height: 30px;
@@ -528,9 +533,12 @@
         justify-content: center;
         width: 31.78px;
         height: 31.78px;
-        background: #6c5fbc;
+        background: #a8a2d1;
         border-radius: 50%;
-
+        svg {
+          color: #6c5fbc;
+          // background-color: #6f64af;
+        }
         .Save {
           width: 15px;
           height: 15px;

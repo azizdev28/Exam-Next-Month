@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../DishesShoop/DishesShoop.scss";
 import oneSt from "../../assets/img/First.png";
+import SubscribePage from "../../components/SubscribePage/SubscribePage";
 
 const DishesShoop = () => {
   const [korzinaArr, setKorzinaArr] = useState([]);
@@ -78,6 +79,7 @@ const DishesShoop = () => {
           </ul>
         </div>
       </div>
+      <SubscribePage />
     </div>
   );
 };

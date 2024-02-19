@@ -1,44 +1,160 @@
 .Purchases {
   display: flex;
-  align-items: start;
-  justify-content: space-between;
-  padding: 30px 60px;
-  margin: 100px 0;
-  // flex-wrap: wrap;
-
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  padding: 0 60px;
+  .SavingCard {
+    img {
+      max-width: 534px;
+    }
+  }
   .PurchasesCards {
     display: flex;
-    align-items: start;
+    justify-content: flex-start;
     flex-direction: column;
-    justify-content: start;
+    gap: 10px;
 
     h2 {
       font-family: Poppins;
-      font-size: 43px;
+      font-size: 51px;
       font-weight: 700;
-      line-height: 71px;
-      letter-spacing: 10px;
+      line-height: 68px;
+      letter-spacing: 5px;
       text-align: left;
 
       span {
         font-family: Poppins;
-        font-size: 41px;
+        font-size: 53px;
         font-weight: 700;
-        line-height: 58px;
-        letter-spacing: 10px;
+        line-height: 61px;
+        letter-spacing: 0px;
         text-align: left;
         color: #6c5fbc;
       }
     }
-    img {
-      max-width: 295.17px;
-      border-radius: 12.04px;
-      display: block;
+    .PurchasesCard {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 7px 15px;
+      background-color: #fff;
+      max-width: 345px;
+      border-radius: 15px;
+
+      img {
+        max-width: 78px;
+      }
+      h2 {
+        font-family: Poppins;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      p {
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      time {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
     }
   }
-  .PurchasesCard {
-    img {
-      max-width: 534px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .Purchases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    padding: 0 50px;
+    gap: 30px;
+    flex-wrap: wrap;
+    .SavingCard {
+      img {
+        max-width: 379px;
+      }
+    }
+    .PurchasesCards {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+
+      h2 {
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: 0px;
+        text-align: left;
+
+        span {
+          font-family: Poppins;
+          font-size: 38px;
+          font-weight: 700;
+          line-height: 43px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: #6c5fbc;
+        }
+      }
+      .PurchasesCard {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 5px;
+        padding: 7px 15px;
+        background-color: #fff;
+        max-width: 245px;
+        border-radius: 15px;
+
+        img {
+          max-width: 53px;
+        }
+        h2 {
+          font-family: Poppins;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0px;
+          text-align: start;
+        }
+
+        p {
+          font-family: Poppins;
+          font-size: 9px;
+          font-weight: 500;
+          line-height: 12px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+
+        time {
+          font-family: Poppins;
+          font-size: 9px;
+          font-weight: 500;
+          line-height: 18px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+      }
     }
   }
 }
@@ -46,48 +162,82 @@
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .Purchases {
     display: flex;
-    align-items: center;
     justify-content: center;
-    // flex-direction: column;
-    padding: 20px 50px;
-    margin: 109px 0;
+    align-items: center;
+    margin: 30px auto;
+    padding: 0 40px;
+    gap: 30px;
     flex-wrap: wrap;
-
+    .SavingCard {
+      img {
+        max-width: 316px;
+      }
+    }
     .PurchasesCards {
       display: flex;
-      align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       flex-direction: column;
-      margin: 0 auto;
+      gap: 10px;
+      align-items: center;
 
       h2 {
         font-family: Poppins;
-        font-size: 33px;
+        font-size: 30px;
         font-weight: 700;
-        line-height: 51px;
-        letter-spacing: 5px;
-        text-align: left;
+        line-height: 33px;
+        letter-spacing: 0px;
         text-align: center;
 
         span {
           font-family: Poppins;
-          font-size: 31px;
+          font-size: 30px;
           font-weight: 700;
-          line-height: 58px;
-          letter-spacing: 5px;
+          line-height: 34px;
+          letter-spacing: 0px;
           text-align: left;
           color: #6c5fbc;
         }
       }
-      img {
-        max-width: 295.17px;
-        border-radius: 12.04px;
-        display: block;
-      }
-    }
-    .PurchasesCard {
-      img {
-        max-width: 334px;
+      .PurchasesCard {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 5px;
+        padding: 7px 15px;
+        background-color: #fff;
+        max-width: 228px;
+        border-radius: 15px;
+
+        img {
+          max-width: 51px;
+        }
+        h2 {
+          font-family: Poppins;
+          font-size: 13px;
+          font-weight: 600;
+          line-height: 18px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+
+        p {
+          font-family: Poppins;
+          font-size: 8px;
+          font-weight: 500;
+          line-height: 11px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+
+        time {
+          font-family: Poppins;
+          font-size: 9px;
+          font-weight: 500;
+          line-height: 12px;
+          letter-spacing: 0px;
+          text-align: left;
+          color: #acadb9;
+        }
       }
     }
   }

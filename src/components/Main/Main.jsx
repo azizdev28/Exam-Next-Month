@@ -10,10 +10,12 @@ import BgImg from "../../assets/img/BgImg.png";
 import TopDishes from "../TopDishes/TopDishes";
 import Purchases from "../Purchases/Purchases";
 import CustomerSay from "../CustomerSay/CustomerSay";
+import SubscribePage from "../SubscribePage/SubscribePage";
 const Main = () => {
   return (
     <div className="container ">
       {/* HeaderWrapper */}
+
       <div className="HeaderWrapper">
         <div className="WrapperInfo">
           <div className="OpaySite">
@@ -105,6 +107,10 @@ const Main = () => {
 
       <div>
         <CustomerSay />
+      </div>
+
+      <div>
+        <SubscribePage />
       </div>
     </div>
   );

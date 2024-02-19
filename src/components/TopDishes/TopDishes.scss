@@ -5,6 +5,21 @@
   justify-content: center;
   margin: 150px auto;
 
+  .FormSection {
+    display: flex;
+    gap: 20px;
+
+    input {
+      padding: 5px 10px;
+      border-radius: 10px;
+      color: #6c5fbc;
+    }
+    select {
+      padding: 5px 10px;
+      border-radius: 10px;
+      color: #6c5fbc;
+    }
+  }
   h2 {
     font-family: Poppins;
     font-size: 45px;
@@ -23,7 +38,7 @@
     align-items: center;
     justify-content: center;
     grid-template-columns: repeat(5, 1fr);
-    gap: 35px;
+    gap: 25px;
     margin-bottom: 30px;
     margin-top: 60px;
 
@@ -33,21 +48,21 @@
       flex-direction: column;
       align-items: start;
       justify-content: center;
-      padding: 30px 20px;
-      background: linear-gradient(0deg, #f4f4f6, #f4f4f6),
-        linear-gradient(0deg, #ffffff, #ffffff);
 
-      max-width: 234.74px;
+      // background: linear-gradient(0deg, #f4f4f6, #f4f4f6),
+      //   linear-gradient(0deg, #ffffff, #ffffff);
+      background-color: #ffffff;
+      max-width: 246.74px;
       min-height: 359.59px;
       box-shadow: 4.869985580444336px 58.439823150634766px 29.219911575317383px
         0px #e5e5e5b2;
-      border-radius: 30px;
+      border-radius: 34px;
       img {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 20px auto;
-        width: 100%;
+        margin: 0 auto;
+        max-width: 184px;
       }
 
       .supreme {
@@ -96,14 +111,14 @@
         letter-spacing: 4px;
         text-align: left;
         color: #8e97a6;
-        margin: 10px 0;
+        // margin: 6px 0;
       }
 
       .BtnShop {
         display: flex;
         justify-content: space-between;
         gap: 35px;
-        margin-top: 10px;
+        // margin-top: 10px;
         align-items: center;
         border: none;
         h4 {
@@ -134,6 +149,27 @@
           padding: 10px;
           font-size: 20px;
           cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .pagination {
+    display: flex;
+    gap: 10px;
+
+    li {
+      a {
+        text-decoration: none;
+        background-color: #6c5fbc;
+        padding: 5px 8px;
+        border-radius: 8px;
+        color: #f4f4f6;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #fff;
+          color: #6c5fbc;
         }
       }
     }
@@ -276,6 +312,12 @@
     justify-content: center;
     margin: 0 auto;
 
+    .FormSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
     h2 {
       font-family: Poppins;
       font-size: 30px;
@@ -294,21 +336,21 @@
       align-items: center;
       justify-content: center;
       grid-template-columns: repeat(2, 1fr);
-      gap: 30px;
-      margin-bottom: 30px;
-      margin-top: 60px;
+      gap: 10px;
+      margin-bottom: 80px;
+      margin-top: 20px;
 
       .DishesCard {
-        padding: 20px 15px;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         justify-content: center;
-        padding: 30px 20px;
+
         background: linear-gradient(0deg, #f4f4f6, #f4f4f6),
           linear-gradient(0deg, #ffffff, #ffffff);
 
-        max-width: 194.74px;
+        padding: 10px 15px;
+
         min-height: 359.59px;
         box-shadow: 4.869985580444336px 58.439823150634766px
           29.219911575317383px 0px #e5e5e5b2;
@@ -317,17 +359,19 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          margin: 20px auto;
-          width: 100%;
+          margin: 0 auto;
+          width: 131px;
         }
         span {
           display: flex;
           text-align: start;
           font-family: Poppins;
-          font-size: 11px;
+          font-size: 7px;
           font-weight: 400;
-          line-height: 17px;
+          line-height: 11px;
           letter-spacing: 0px;
+          text-align: left;
+
           text-align: left;
           color: #daa31a;
           background-color: #ecce80;
@@ -353,42 +397,37 @@
           text-align: left;
 
           color: #8e97a6;
-          margin: 10px 0;
+          // margin: 10px 0;
         }
 
         .BtnShop {
           display: flex;
-          justify-content: space-between;
-          gap: 35px;
-          margin-top: 10px;
+          justify-content: center;
+          gap: 15px;
+          // margin-top: 10px;
           align-items: center;
           border: none;
           h4 {
-            display: flex;
             font-family: Manrope;
-            font-size: 20px;
+            font-size: 12px;
             font-weight: 700;
-            line-height: 40px;
-            letter-spacing: 4px;
+            line-height: 26px;
+            letter-spacing: 0px;
             text-align: left;
-            align-items: center;
-
-            .SenaSpan {
-              font-family: Manrope;
-              font-size: 17px;
-              font-weight: 700;
-              line-height: 40px;
-              letter-spacing: 0px;
-              text-align: left;
-              color: #8e97a6;
-            }
+            margin: 0;
+            font-family: Manrope;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
           }
 
           .FaPlusCircleBtn {
             color: #ffffff;
             border-radius: 8.93px;
             background-color: #000;
-            padding: 10px;
+            padding: 3px 7px;
             font-size: 20px;
             cursor: pointer;
           }

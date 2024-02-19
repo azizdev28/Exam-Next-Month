@@ -71,10 +71,10 @@ const TopDishes = () => {
   return (
     <div className="TopDishes">
       {isLoading && <LoadingPage />}
-      <h2>
+      <h2 className="my-5">
         Our Top <span className="SpanHeading">Dishes</span>
       </h2>
-      <div>
+      <div className="FormSection">
         <input
           type="text"
           placeholder="Search"
@@ -92,7 +92,7 @@ const TopDishes = () => {
         </select>
         <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
           <option value="price">Price</option>
-          <option value="name">Name</option>
+          <option value="name">A-Z</option>
         </select>
       </div>
       <div className="DishesGrid">
