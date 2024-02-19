@@ -1,6 +1,6 @@
 // Register.js
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./Register.scss";
 import { toast } from "react-toastify";
 
@@ -35,6 +35,7 @@ const Register = () => {
 
   return (
     <div className="RegisterPage">
+      <h1 className="my-5">Sign Up To eatly</h1>
       <form onSubmit={handleRegister}>
         {/* Xatolarni chiqarish */}
         {error && <p className="error">{error}</p>}
@@ -57,6 +58,9 @@ const Register = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <button type="submit">Sign Up</button>
+        <p>
+          Already Have An Account? <NavLink to="/login">Log In</NavLink>
+        </p>
       </form>
     </div>
   );

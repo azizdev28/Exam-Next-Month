@@ -436,3 +436,135 @@
     }
   }
 }
+@media screen and (max-width: 375px) {
+  .TopDishes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    .FormSection {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    h2 {
+      font-family: Poppins;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 36px;
+      letter-spacing: 0px;
+      text-align: center;
+
+      .SpanHeading {
+        color: #6c5fbc;
+      }
+    }
+    .DishesGrid {
+      display: grid;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin-bottom: 80px;
+      margin-top: 20px;
+
+      .DishesCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        background: linear-gradient(0deg, #f4f4f6, #f4f4f6),
+          linear-gradient(0deg, #ffffff, #ffffff);
+
+        padding: 10px 15px;
+
+        min-height: 359.59px;
+        box-shadow: 4.869985580444336px 58.439823150634766px
+          29.219911575317383px 0px #e5e5e5b2;
+        border-radius: 30px;
+        img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          width: 131px;
+        }
+        span {
+          display: flex;
+          text-align: start;
+          font-family: Poppins;
+          font-size: 7px;
+          font-weight: 400;
+          line-height: 11px;
+          letter-spacing: 0px;
+          text-align: left;
+
+          text-align: left;
+          color: #daa31a;
+          background-color: #ecce80;
+          padding: 2px 5px;
+          border-radius: 5px;
+        }
+
+        h3 {
+          font-family: Poppins;
+          font-size: 15px;
+          font-weight: 600;
+          line-height: 25px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+
+        p {
+          font-family: Manrope;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 15px;
+          letter-spacing: 0px;
+          text-align: left;
+
+          color: #8e97a6;
+          // margin: 10px 0;
+        }
+
+        .BtnShop {
+          display: flex;
+          justify-content: center;
+          gap: 15px;
+          // margin-top: 10px;
+          align-items: center;
+          border: none;
+          h4 {
+            font-family: Manrope;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin: 0;
+            font-family: Manrope;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 26px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+
+          .FaPlusCircleBtn {
+            color: #ffffff;
+            border-radius: 8.93px;
+            background-color: #000;
+            padding: 3px 7px;
+            font-size: 20px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

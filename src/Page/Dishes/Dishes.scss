@@ -1,4 +1,6 @@
 .AcardionSection {
+  width: 1150px;
+  border: none;
   h2 {
     text-align: center;
     font-family: Poppins;
@@ -17,5 +19,21 @@
       letter-spacing: 0px;
       text-align: center;
     }
+  }
+}
+
+@media screen and (min-width: 678px) and (max-width: 1024px) {
+  .AcardionSection {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .AcardionSection {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .AcardionSection {
+    width: 350px;
   }
 }

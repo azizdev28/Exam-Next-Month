@@ -6,15 +6,15 @@ import "../Header/Header.scss";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
-  const [open, setOpen] = useState("false");
+  const [open, setOpen] = useState(false);
 
   const handleClick = () => {
-    setOpen(true);
-    console.log("true");
+    setOpen(!open);
   };
+
   return (
     <div className="Header">
-      <div className="Navbar container d-flex  align-items-center">
+      <div className="Navbar container d-flex align-items-center">
         <div className="NavbarLeft">
           <div className="Logo">
             <NavLink to="/">
@@ -22,7 +22,7 @@ const Header = () => {
             </NavLink>
             <h2>eatly</h2>
           </div>
-          <ul className="ListItem">
+          <ul className={`ListItem ${open ? "open" : ""}`}>
             <li>
               <NavLink to="/">Home</NavLink>
             </li>

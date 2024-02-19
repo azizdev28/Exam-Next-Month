@@ -114,3 +114,63 @@
     }
   }
 }
+@media screen and (max-width: 375px) {
+  .Footer {
+    background-color: #eaeaea;
+    // padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 60px;
+    .LineFooter {
+      width: 100%;
+      background-color: #818181;
+      // color: black;
+      // border-radius: 2px solid black;
+      height: 2px;
+      margin-bottom: 60px;
+    }
+    .Logo {
+      display: flex;
+      margin: 40px auto;
+      justify-content: center;
+    }
+    .SetSiteFooter {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+
+      p {
+        font-family: Inter;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #999999;
+      }
+
+      .IconSites {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        svg {
+          color: #081420;
+          width: 20px;
+          height: 20px;
+          transition: all 0.7s ease;
+
+          &:hover {
+            color: rgb(89, 0, 255);
+          }
+        }
+      }
+    }
+  }
+}

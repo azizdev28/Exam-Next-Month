@@ -124,6 +124,44 @@
     .NavbarRight {
       display: none;
     }
+
+    .BurgerBtn {
+      display: block;
+
+      button {
+        font-size: 35px;
+        background-color: #fff;
+        border: none;
+      }
+    }
+  }
+
+  .ListItem {
+    display: flex;
+    li {
+      a {
+        font-size: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 768px;
+  }
+  .Navbar {
+    padding: 20px 50px;
+
+    .NavbarLeft {
+      gap: 10px;
+
+      .ListItem {
+        display: none;
+      }
+    }
+    .NavbarRight {
+      display: none;
+    }
     .BurgerBtn {
       display: block;
 
