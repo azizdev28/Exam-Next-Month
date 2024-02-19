@@ -8,7 +8,10 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Yoritish */
   flex-wrap: wrap;
 }
-
+.CartItemCount {
+  background-color: red;
+  color: #fff;
+}
 .Navbar {
   display: flex;
   align-items: center;
@@ -124,7 +127,9 @@
     .NavbarRight {
       display: none;
     }
-
+    .open {
+      display: block;
+    }
     .BurgerBtn {
       display: block;
 
